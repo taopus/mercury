@@ -10,7 +10,7 @@ pipeline {
         echo 'Build started'
       }
     }
-    stage('Random') {
+    stage('Do') {
       steps {
         sh '''pwd
 java -version'''
